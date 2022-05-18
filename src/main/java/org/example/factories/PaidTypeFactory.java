@@ -4,6 +4,9 @@ import org.example.paids.PaidPerMinuteFloor;
 import org.example.paids.PaidPerSecond;
 import org.example.paids.PaidType;
 
+/*
+ * Класс с фабричным методом - позволяет контролировать создание методов оплаты и не плодить лишние объекты
+ */
 public class PaidTypeFactory {
     public static final String PAID_PER_MINUTE_FLOOR = "ppmf";
     public static final String PAID_PER_SECOND = "pps";
